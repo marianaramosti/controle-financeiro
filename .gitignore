@@ -1,0 +1,6 @@
+# Dados sensíveis do servidor (senha do banco)
+includes/config.local.php
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
