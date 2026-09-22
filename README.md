@@ -77,16 +77,6 @@ A tabela `lancamentos` guarda contas a pagar e a receber, separadas pela coluna 
 
 As configurações padrão do XAMPP (usuário `root`, sem senha) já estão em `includes/config.php`.
 
-## 🌐 Como publicar online (InfinityFree, gratuito)
-
-1. Crie uma conta em [infinityfree.com](https://www.infinityfree.com) e uma nova hospedagem (subdomínio grátis).
-2. No painel, crie um **banco MySQL** e anote host, nome do banco, usuário e senha.
-3. Abra o **phpMyAdmin** da hospedagem e importe `schema.sql` e `seed.sql`.
-4. Copie `includes/config.local.exemplo.php` para `includes/config.local.php` e preencha com os dados do passo 2.
-5. Envie todos os arquivos para a pasta `htdocs` pelo **Gerenciador de Arquivos** (ou FTP).
-6. Acesse o seu subdomínio.
-
-> `config.local.php` contém a senha do banco e está no `.gitignore`: ele **nunca** deve ir para o GitHub.
 
 ## 🛠️ Tecnologias
 
